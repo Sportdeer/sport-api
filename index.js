@@ -101,15 +101,3 @@ class Sportdeer {
 
 module.exports = Sportdeer
 
-var sportdeer = new Sportdeer('AAeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1YTgwYzY4OTVjZWI1ZjE3MjMyNmM5OTAiLCJpYXQiOjE1MTg4NjIzMzJ9.uCxQFGf3aGE7g-T5LHh4ecJ-lsk4CHWVKEwsFSWnXQA')
-
-sportdeer.get('countries/46')
-
-    .then(body => {
-        console.log(body)
-    })
-
-
-    .catch(err => {
-        console.log(err)
-    })
