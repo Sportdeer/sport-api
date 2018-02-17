@@ -1,0 +1,22 @@
+{
+  "name": "sdk-nodejs-api",
+  "version": "0.1.0",
+  "description": "Sportdeer Nodejs SDK - Sport API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sportdeer/sport-api.git"
+  },
+  "author": "Sportdeer.com <info@sportdeer.com> (https://www.sportdeer.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sportdeer/sport-api/issues"
+  },
+  "homepage": "https://github.com/Sportdeer/sport-api#readme",
+  "dependencies": {
+    "requestretry": "1.13.0"
+  }
+}
