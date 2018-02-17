@@ -1,6 +1,6 @@
 {
-  "name": "sdk-nodejs-api",
-  "version": "0.1.0",
+  "name": "sports-api",
+  "version": "0.1.2",
   "description": "Sportdeer Nodejs SDK - Sport API",
   "main": "index.js",
   "scripts": {
