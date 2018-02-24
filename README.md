@@ -5,7 +5,7 @@
 ## GETTING STARTED
 
 ### Prerequisites
-First of all you are asked for opening an account on our [website](https://www.sportdeer.com)  in order to get your personal [refresh token](https://sportdeer.com/documentation#faq). 
+First of all, you are asked for opening an account on our [website](https://www.sportdeer.com)  in order to get your personal [refresh token](https://sportdeer.com/documentation#faq). 
 >**Remember**, the refresh token is **higly confidential** and it should never be used by anyone but you.
 
 ### Installing
@@ -98,10 +98,10 @@ var sportdeer = new Sportdeer('PUT_YOUR_REFRESH_TOKEN_HERE')
 
 var params = {
     populate: 'leagues',
-    page: 2
+    page: 1
 }
 
-sportdeer.get('fixtures', params)
+sportdeer.get('countries', params)
 
     .then(response => {
         console.log(response)
