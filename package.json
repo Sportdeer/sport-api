@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Sportdeer/sport-api#readme",
   "dependencies": {
-    "requestretry": "1.13.0"
+    "requestretry": "7.0.0"
   }
 }
